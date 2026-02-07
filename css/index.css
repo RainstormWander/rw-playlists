@@ -1,0 +1,59 @@
+/* - - - Fonts - - - */
+
+@import url('https://fonts.googleapis.com/css2?family=Zalando+Sans+SemiExpanded:ital,wght@0,200..900;1,200..900&display=swap');
+
+/* - - - Universal Reset - - - */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* - - - Variables - - - */
+
+:root {
+
+    --body-background-color: #dff5ec;
+    --body-links-color: #283580;
+    --body-font-family: "Zalando Sans SemiExpanded", sans-serif;
+    --body-font-size: 1.05rem;
+}
+
+/* - - - Header - - -  */
+
+/* - - - Body - - - */
+
+body {
+    background: var(--body-background-color);
+    font-size: var(--body-font-size);
+    font-family: var(--body-font-family);
+}
+
+body a {
+    color: var(--body-links-color);
+    text-decoration: none;
+    margin: .1rem;
+}
+
+body p {
+    margin-bottom: .5rem;
+    letter-spacing: .5px;
+}
+
+.p-underline {
+    text-decoration: underline;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+
+#container-playlists {
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+li {
+    margin: .5rem;
+}
+
+/* - - - Footer - - - */
